@@ -235,14 +235,13 @@ ul      {
 .team-list {
         display: flex;
         justify-content: space-between;
-        background-color: var(--primary-background-color);
         margin-bottom: 0px;
         margin-top: 0px; 
 } 
 
 .card {
         background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         border-radius: 0px 0px 4px 4px;
 }
 
@@ -371,6 +370,7 @@ ul      {
  .button-list .link:focus  {
         background-color:var(--accent-color);
         color: #ffffff;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
  }
 
 
@@ -386,10 +386,15 @@ ul      {
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
         margin-bottom: 30px;
-        /* margin-left: 30px ;
-        margin-top: 30px; */
         
 }    
+.our-projects .item:hover,
+.our-projects .item:focus {
+                box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+                0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+                0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+                
 .our-projects .item:nth-last-child(-n + 3) {
         margin-bottom: 0;
 }
