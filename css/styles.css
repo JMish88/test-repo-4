@@ -119,6 +119,7 @@ ul      {
                 padding-top: 32px;                               
 }
 
+
 .auth-nav-link:hover,
 .auth-nav-link:focus { 
         color: var(--accent-color);
@@ -166,6 +167,26 @@ ul      {
            
             /*benefits*/
 
+.benefit-pic {
+        display: flex;
+        
+        
+}
+
+.ben-item {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background: #F5F4FA;
+        margin-bottom: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        justify-content: center;
+        
+} 
+.ben-item + .ben-item {
+        margin-left: 30px;}
 
  .benefit-title {
                 color: var(--primary-text-color);
