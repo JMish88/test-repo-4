@@ -108,6 +108,17 @@ ul      {
         margin-left: 40px;
 }
 
+.auth-nav-mail {
+        display: flex;
+        justify-content: center;
+                text-align: center;
+}
+.envelope {
+        display: block;
+        
+        margin-right: 10px;
+        
+}
 .auth-nav-link {
                 display:block;
                 color: #757575;
@@ -180,8 +191,7 @@ ul      {
         border-radius: 4px;
         background: #F5F4FA;
         margin-bottom: 30px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        align-items: center;
         justify-content: center;
         
 } 
@@ -269,7 +279,7 @@ ul      {
 
 
 .team-list li:not(:first-child) {
-        margin-left: 30px;
+        margin-left: 10px;
 }
 
 
@@ -290,9 +300,27 @@ ul      {
                 line-height: 1.19;
                 text-align: center;
                 letter-spacing: 0.03em;
-                padding-bottom: 30px;      
+                      
 }
-
+.soc-link {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 16px 34px 30px 34px;
+        
+        }
+.soc-item {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        background-color: tomato;
+        justify-content: center;
+        text-align: center;
+                border-radius: 50%;
+}
+.per-soc-link {
+        display: flex;
+}
 
 
             /*footer*/
