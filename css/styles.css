@@ -316,11 +316,52 @@ ul      {
         background-color: tomato;
         justify-content: center;
         text-align: center;
-                border-radius: 50%;
+        border-radius: 50%;
+        object-position: center;
 }
 .per-soc-link {
         display: flex;
+        justify-content: center;
+        object-position: center;
+        text-align: center;
 }
+.soc-icon {
+        
+}
+
+        /* regular customers */
+
+.reg-cust-title {
+        text-align: center;
+        font-size: 36px;                
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        padding-bottom: 50px;
+}
+.reg-cust-list {
+        display: flex;
+       
+}
+.cust-item {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 170px;
+        height: 92px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #AFB1B8;
+}
+.cust-item:not(:first-child) {
+        margin-left: 30px;
+}
+.cust-link {
+        display: flex;
+       
+
+}
+
 
 
             /*footer*/
