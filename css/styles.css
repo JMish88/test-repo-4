@@ -34,7 +34,7 @@ ul      {
 .section {
         padding: 94px 0px;
         margin: 0px;
-        /* outline: 2px solid tomato; */
+        outline: 2px solid tomato;
 }
 
 .container {    
@@ -97,7 +97,8 @@ ul      {
 
 .site-nav-link.current,
 .site-nav-link:focus, 
-.site-nav-link:hover { color: var(--accent-color) ;}
+.site-nav-link:hover { 
+        color: var(--accent-color) ;}
 
 .auth-nav {
                 display: flex;   
@@ -108,15 +109,40 @@ ul      {
         margin-left: 40px;
 }
 
-.auth-nav-mail {
+.auth-nav-mail,
+.auth-nav-tel 
+{
+        color: #757575;      
+        font-size: 14px;      
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
         display: flex;
-        justify-content: center;
-                text-align: center;
 }
-.envelope {
-        display: block;
-        
+
+.auth-nav-mail::before {
+        content:"";
+        background-image: url(../images/icons.svg#envelope);
+        width: 16px;
+        height: 12px;
         margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+.auth-nav-mail:hover,
+.auth-nav-mail:focus,
+.auth-nav-tel:hover,
+.auth-nav-tel:focus {
+        color: var(--accent-color);
+}
+/* .envelope::before {
+        content: ;
+        background-image: url(/images/icons.svg#envelope);
+        display: inline-block;   
+        width: 16px;
+        height: 12px;     
+        margin-right: 10px; */
         
 }
 .auth-nav-link {
@@ -130,7 +156,6 @@ ul      {
                 padding-top: 32px;                               
 }
 
-
 .auth-nav-link:hover,
 .auth-nav-link:focus { 
         color: var(--accent-color);
@@ -140,11 +165,11 @@ ul      {
                 /*hero*/
 
 .hero-section {
-        background-color:#2F303A ;
+        /* background-color:#2F303A ; */
         text-align: center;
-                /* text-align: center;
-                align-items: center;  */
-}
+        background-image: url(../images/hero-bgimg.jpg);
+        background-position: center;
+        }
 
  .hero-title {
         display: block;
