@@ -102,18 +102,50 @@ ul      {
 
 .auth-nav {
                 display: flex;   
-                margin-left: auto;                 
+                margin-left: auto; 
+               
 }
-.auth-nav >li {
+.mail-hover {
         display: flex;
-        align-items: center;
-       }
-
+        padding-top: 32px;
+                padding-bottom: 32px;
+                justify-content: center;
+                align-items: center;
+}
+.mail-icon {
+        fill: var(--secondary-text-color);
+         
+       margin-right: 10px;
+}
+.auth-nav-mail {
+        color: var(--secondary-text-color);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.28px;
+}
 
 .item +.item {
         margin-left: 30px;
 }
-
+.phone-hover {
+display: flex;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        justify-content: center;
+        align-items: center;
+}
+.smartphone-icon {
+        fill: var(--secondary-text-color);
+        margin-right: 10px;
+}
+.auth-nav-tel {
+        color: var(--secondary-text-color);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.28px;
+}
 
 
                 /*hero*/
