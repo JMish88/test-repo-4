@@ -129,7 +129,7 @@ ul      {
         margin-left: 30px;
 }
 .phone-hover {
-display: flex;
+        display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
         justify-content: center;
@@ -151,10 +151,16 @@ display: flex;
                 /*hero*/
 
 .hero-section {
-        /* background-color:#2F303A ; */
-        text-align: center;
-        background-image: url(../images/hero-bgimg.jpg);
+        min-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient( to right,         
+        rgba(47, 48, 58, 0.40),
+        rgba(47, 48, 58, 0.40)),         
+        url("../images/hero-bgimg.jpg");        
         background-position: center;
+        text-align: center;
         }
 
  .hero-title {
